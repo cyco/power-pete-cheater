@@ -307,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.ccl.Power-Pete-Cheater";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ccl.PowerPeteCheater;
 				PRODUCT_MODULE_NAME = PowerPeteCheater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -322,12 +322,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Power Pete Cheater/PowerPeteCheater.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KJC93QR5MR;
 				INFOPLIST_FILE = "Power Pete Cheater/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.ccl.Power-Pete-Cheater";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ccl.PowerPeteCheater;
 				PRODUCT_MODULE_NAME = PowerPeteCheater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
