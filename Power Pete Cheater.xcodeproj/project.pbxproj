@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83140050262B2E5700B32FD7 /* CustomValueTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314004F262B2E5700B32FD7 /* CustomValueTransformers.swift */; };
+		83140053262B2EE300B32FD7 /* SaveGame+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83140052262B2EE300B32FD7 /* SaveGame+Serialization.swift */; };
+		83140059262B39ED00B32FD7 /* HyperTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83140058262B39ED00B32FD7 /* HyperTextField.swift */; };
+		8314005C262B3C5300B32FD7 /* KeyableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314005B262B3C5300B32FD7 /* KeyableWindow.swift */; };
+		83226FC826298DC60003CFE7 /* Stream+Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83226FC726298DC60003CFE7 /* Stream+Binary.swift */; };
+		8355FC282629ADF000032976 /* IsConstantIntValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8355FC272629ADF000032976 /* IsConstantIntValueTransformer.swift */; };
+		836E46CA2629B33900CD143E /* OffsetNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E46C92629B33900CD143E /* OffsetNumberFormatter.swift */; };
+		83CEE8842626FDB4005E084C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CEE8832626FDB4005E084C /* AppDelegate.swift */; };
+		83CEE8862626FDB5005E084C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CEE8852626FDB5005E084C /* Assets.xcassets */; };
+		83CEE8892626FDB5005E084C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CEE8872626FDB5005E084C /* MainMenu.xib */; };
+		83CEE89626271F85005E084C /* SaveGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CEE89526271F85005E084C /* SaveGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8314004F262B2E5700B32FD7 /* CustomValueTransformers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValueTransformers.swift; sourceTree = "<group>"; };
+		83140052262B2EE300B32FD7 /* SaveGame+Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveGame+Serialization.swift"; sourceTree = "<group>"; };
+		83140058262B39ED00B32FD7 /* HyperTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperTextField.swift; sourceTree = "<group>"; };
+		8314005B262B3C5300B32FD7 /* KeyableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyableWindow.swift; sourceTree = "<group>"; };
+		83226FC726298DC60003CFE7 /* Stream+Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream+Binary.swift"; sourceTree = "<group>"; };
+		8355FC272629ADF000032976 /* IsConstantIntValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsConstantIntValueTransformer.swift; sourceTree = "<group>"; };
+		836E46C92629B33900CD143E /* OffsetNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetNumberFormatter.swift; sourceTree = "<group>"; };
+		83CEE8802626FDB4005E084C /* Power Pete Cheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Pete Cheater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CEE8832626FDB4005E084C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83CEE8852626FDB5005E084C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83CEE8882626FDB5005E084C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83CEE88A2626FDB5005E084C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CEE88B2626FDB5005E084C /* PowerPeteCheater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PowerPeteCheater.entitlements; sourceTree = "<group>"; };
+		83CEE89526271F85005E084C /* SaveGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CEE87D2626FDB4005E084C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CEE8772626FDB4005E084C = {
+			isa = PBXGroup;
+			children = (
+				83CEE8822626FDB4005E084C /* Power Pete Cheater */,
+				83CEE8812626FDB4005E084C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83CEE8812626FDB4005E084C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CEE8802626FDB4005E084C /* Power Pete Cheater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CEE8822626FDB4005E084C /* Power Pete Cheater */ = {
+			isa = PBXGroup;
+			children = (
+				83CEE8832626FDB4005E084C /* AppDelegate.swift */,
+				83CEE8852626FDB5005E084C /* Assets.xcassets */,
+				8314004F262B2E5700B32FD7 /* CustomValueTransformers.swift */,
+				83CEE88A2626FDB5005E084C /* Info.plist */,
+				8355FC272629ADF000032976 /* IsConstantIntValueTransformer.swift */,
+				83CEE8872626FDB5005E084C /* MainMenu.xib */,
+				836E46C92629B33900CD143E /* OffsetNumberFormatter.swift */,
+				83CEE88B2626FDB5005E084C /* PowerPeteCheater.entitlements */,
+				83CEE89526271F85005E084C /* SaveGame.swift */,
+				83140052262B2EE300B32FD7 /* SaveGame+Serialization.swift */,
+				83226FC726298DC60003CFE7 /* Stream+Binary.swift */,
+				83140058262B39ED00B32FD7 /* HyperTextField.swift */,
+				8314005B262B3C5300B32FD7 /* KeyableWindow.swift */,
+			);
+			path = "Power Pete Cheater";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CEE87F2626FDB4005E084C /* Power Pete Cheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CEE88E2626FDB5005E084C /* Build configuration list for PBXNativeTarget "Power Pete Cheater" */;
+			buildPhases = (
+				83CEE87C2626FDB4005E084C /* Sources */,
+				83CEE87D2626FDB4005E084C /* Frameworks */,
+				83CEE87E2626FDB4005E084C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Pete Cheater";
+			productName = "Power Pete Cheater";
+			productReference = 83CEE8802626FDB4005E084C /* Power Pete Cheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CEE8782626FDB4005E084C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					83CEE87F2626FDB4005E084C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 83CEE87B2626FDB4005E084C /* Build configuration list for PBXProject "Power Pete Cheater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CEE8772626FDB4005E084C;
+			productRefGroup = 83CEE8812626FDB4005E084C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CEE87F2626FDB4005E084C /* Power Pete Cheater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CEE87E2626FDB4005E084C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CEE8862626FDB5005E084C /* Assets.xcassets in Resources */,
+				83CEE8892626FDB5005E084C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CEE87C2626FDB4005E084C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8314005C262B3C5300B32FD7 /* KeyableWindow.swift in Sources */,
+				83140059262B39ED00B32FD7 /* HyperTextField.swift in Sources */,
+				83140053262B2EE300B32FD7 /* SaveGame+Serialization.swift in Sources */,
+				83CEE89626271F85005E084C /* SaveGame.swift in Sources */,
+				83226FC826298DC60003CFE7 /* Stream+Binary.swift in Sources */,
+				83CEE8842626FDB4005E084C /* AppDelegate.swift in Sources */,
+				8355FC282629ADF000032976 /* IsConstantIntValueTransformer.swift in Sources */,
+				83140050262B2E5700B32FD7 /* CustomValueTransformers.swift in Sources */,
+				836E46CA2629B33900CD143E /* OffsetNumberFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83CEE8872626FDB5005E084C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CEE8882626FDB5005E084C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83CEE88C2626FDB5005E084C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83CEE88D2626FDB5005E084C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		83CEE88F2626FDB5005E084C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Power Pete Cheater/PowerPeteCheater.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power Pete Cheater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ccl.Power-Pete-Cheater";
+				PRODUCT_MODULE_NAME = PowerPeteCheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83CEE8902626FDB5005E084C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Power Pete Cheater/PowerPeteCheater.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power Pete Cheater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ccl.Power-Pete-Cheater";
+				PRODUCT_MODULE_NAME = PowerPeteCheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CEE87B2626FDB4005E084C /* Build configuration list for PBXProject "Power Pete Cheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CEE88C2626FDB5005E084C /* Debug */,
+				83CEE88D2626FDB5005E084C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CEE88E2626FDB5005E084C /* Build configuration list for PBXNativeTarget "Power Pete Cheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CEE88F2626FDB5005E084C /* Debug */,
+				83CEE8902626FDB5005E084C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CEE8782626FDB4005E084C /* Project object */;
+}
